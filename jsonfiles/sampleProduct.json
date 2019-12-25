@@ -1,0 +1,44 @@
+[
+    {
+        "name"        : "T-Shirt",
+        "sku"         : "TS1000",
+        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse ac erat maximus augue accumsan egestas. Quisque posuere augue quis libero molestie posuere.",
+        "categories"  : [
+            "Clothes", "Mens"
+        ],
+        "available_attributes": [
+            "size", "color"
+        ],
+        "variations":
+        [
+            {
+                "attributes": {
+                    "size"  : "Small",
+                    "color" : "Red"
+                },
+                "price" : "8.00"
+            },
+            {
+                "attributes": {
+                    "size"  : "Medium",
+                    "color" : "Red"
+                },
+                "price" : "10.00"
+            },
+            {
+                "attributes": {
+                    "size"  : "Small",
+                    "color" : "Blue"
+                },
+                "price" : "8.00"
+            },
+            {
+                "attributes": {
+                    "size"  : "Large",
+                    "color" : "Blue"
+                },
+                "price" : "12.00"
+            }                           
+        ]
+    }   
+]
